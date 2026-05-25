@@ -1,19 +1,14 @@
-# <img src=".gitlab/opentofu.png" alt="opentofu" height="30"/> gitlab-group
-
-Zarządzanie grupami w GitLab
-
-<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.10.5 |
 | <a name="requirement_gitlab"></a> [gitlab](#requirement\_gitlab) | 18.11.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="provider_gitlab"></a> [gitlab](#provider\_gitlab) | 18.11.0 |
 
 ## Modules
@@ -23,7 +18,7 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [gitlab_group.group](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/group) | resource |
 | [gitlab_group_badge.badge](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/group_badge) | resource |
 | [gitlab_group_label.label](https://registry.terraform.io/providers/gitlabhq/gitlab/18.11.0/docs/resources/group_label) | resource |
@@ -37,7 +32,7 @@ No modules.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_avatar"></a> [avatar](#input\_avatar) | Path to the avatar .png file for the group | `string` | `""` | no |
 | <a name="input_badges"></a> [badges](#input\_badges) | n/a | <pre>map(object({<br/>    link_url  = string<br/>    image_url = string<br/>  }))</pre> | `{}` | no |
 | <a name="input_default_branch"></a> [default\_branch](#input\_default\_branch) | The group's default branch | `string` | `"main"` | no |
@@ -53,28 +48,6 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_full_path"></a> [full\_path](#output\_full\_path) | n/a |
 | <a name="output_id"></a> [id](#output\_id) | n/a |
-<!-- END_TF_DOCS -->
-
----
-
-## Contributions
-
-Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub utwórz Merge Request. Wszystkie wkłady są mile widziane!
-[Contributions](CONTRIBUTING.md)
-
----
-
-## License
-
-[Licencja](LICENSE) oparta na zasadach Creative Commons BY-NC-SA 4.0, dostosowana do potrzeb projektu.
-
----
-
-## Author Information
-
-| ![Maciej Rachuna](https://gitlab.com/uploads/-/system/user/avatar/8161705/avatar.png?width=50) |
-|-------------------------------------------------------------------------------------------------|
-| [Maciej Rachuna](https://gitlab.commrachuna)                                                    |
