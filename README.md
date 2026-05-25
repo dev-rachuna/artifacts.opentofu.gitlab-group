@@ -1,3 +1,8 @@
+# <img src=".gitlab/opentofu.png" alt="opentofu" height="30"/> gitlab-group
+
+Zarządzanie grupami w GitLab
+
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -51,3 +56,25 @@ No modules.
 | ---- | ----------- |
 | <a name="output_full_path"></a> [full\_path](#output\_full\_path) | n/a |
 | <a name="output_id"></a> [id](#output\_id) | n/a |
+<!-- END_TF_DOCS -->
+
+---
+
+## Contributions
+
+Jeśli masz pomysły na ulepszenia, zgłoś problemy, rozwidl repozytorium lub utwórz Merge Request. Wszystkie wkłady są mile widziane!
+[Contributions](CONTRIBUTING.md)
+
+---
+
+## License
+
+[Licencja](LICENSE) oparta na zasadach Creative Commons BY-NC-SA 4.0, dostosowana do potrzeb projektu.
+
+---
+
+## Author Information
+
+| ![Maciej Rachuna](https://gitlab.com/uploads/-/system/user/avatar/8161705/avatar.png?width=120px) |
+|---------------------------------------------------------------------------------------------------|
+| [Maciej Rachuna](https://gitlab.commrachuna)                                                      |
